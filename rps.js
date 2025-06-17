@@ -85,7 +85,7 @@ const playGame = (playerMove) => {
 
     localStorage.setItem('scores', JSON.stringify(scores));
 
-    // alert(`You played ${playerMove}. Computer played ${computerMove}. ${result}.\nWins: ${scores.win}, Losses: ${scores.loss}, Ties: ${scores.tie}`);
+    alert(`You played ${playerMove}. Computer played ${computerMove}. ${result}.\nWins: ${scores.win}, Losses: ${scores.loss}, Ties: ${scores.tie}`);
 }
 
 function showScore() {
